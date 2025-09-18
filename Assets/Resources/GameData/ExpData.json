@@ -1,0 +1,99 @@
+
+    {
+        "1": {
+            "requiredGold": 400,
+            "requiredExp": 100
+        },
+        "2": {
+            "requiredGold": 600,
+            "requiredExp": 100
+        },
+        "3": {
+            "requiredGold": 800,
+            "requiredExp": 100
+        },
+        "4": {
+            "requiredGold": 1000,
+            "requiredExp": 100
+        },
+        "5": {
+            "requiredGold": 1200,
+            "requiredExp": 100
+        },
+        "6": {
+            "requiredGold": 1600,
+            "requiredExp": 125
+        },
+        "7": {
+            "requiredGold": 2000,
+            "requiredExp": 125
+        },
+        "8": {
+            "requiredGold": 2400,
+            "requiredExp": 125
+        },
+        "9": {
+            "requiredGold": 2800,
+            "requiredExp": 125
+        },
+        "10": {
+            "requiredGold": 3200,
+            "requiredExp": 125
+        },
+        "11": {
+            "requiredGold": 3600,
+            "requiredExp": 150
+        },
+        "12": {
+            "requiredGold": 4000,
+            "requiredExp": 150
+        },
+        "13": {
+            "requiredGold": 4400,
+            "requiredExp": 150
+        },
+        "14": {
+            "requiredGold": 4800,
+            "requiredExp": 150
+        },
+        "15": {
+            "requiredGold": 5600,
+            "requiredExp": 150
+        },
+        "16": {
+            "requiredGold": 6400,
+            "requiredExp": 200
+        },
+        "17": {
+            "requiredGold": 7200,
+            "requiredExp": 200
+        },
+        "18": {
+            "requiredGold": 8000,
+            "requiredExp": 200
+        },
+        "19": {
+            "requiredGold": 8800,
+            "requiredExp": 200
+        },
+        "20": {
+            "requiredGold": 9600,
+            "requiredExp": 200
+        },
+        "21": {
+            "requiredGold": 11200,
+            "requiredExp": 200
+        },
+        "22": {
+            "requiredGold": 12800,
+            "requiredExp": 200
+        },
+        "23": {
+            "requiredGold": 14600,
+            "requiredExp": 200
+        },
+        "24": {
+            "requiredGold": 16400,
+            "requiredExp": 250
+        }
+    }

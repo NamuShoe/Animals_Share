@@ -1,0 +1,114 @@
+{
+    "userId": "User_00001",
+    "userName": "DefaultName",
+    "guestCode": "B7P81Gp2GASohfIxLr8F6OqX7yu2",
+    "endTimeStr": "2025-09-18 오후 6:57:35",
+    "isFirstLogin": false,
+    "todayReceive": true,
+    "userIcon": 0,
+    "loginDate": 1,
+    "passPoint": 0,
+    "rankingScore": 0,
+    "purchaseCheck": [
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "stageClearCheck": [
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "enemyClearCheck": [],
+    "mailRead": [],
+    "mainQuestClear": [
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "dailyQuestList": [
+        {
+            "missionNum": 1,
+            "currentNum": 0
+        },
+        {
+            "missionNum": 7,
+            "currentNum": 0
+        },
+        {
+            "missionNum": 16,
+            "currentNum": 0
+        },
+        {
+            "missionNum": 16,
+            "currentNum": 0
+        }
+    ],
+    "dailyQuestClear": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "gold": 0,
+    "diamond": 0,
+    "life": 30,
+    "levelUpMaterial": [
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "itemList": [
+        {
+            "itemType": 3,
+            "amount": 1
+        },
+        {
+            "itemType": 4,
+            "amount": 1
+        }
+    ],
+    "characterList": [
+        1
+    ],
+    "characterInforms": [
+        {
+            "id": 1,
+            "level": 1,
+            "experience": 0,
+            "characterSkillList": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "currentCharacterId": 1,
+    "equipmentSpecificList": [
+        {
+            "id": 1,
+            "type": 0,
+            "grade": 0,
+            "level": 1
+        }
+    ],
+    "currentWeaponId": 0,
+    "currentHatId": -1,
+    "currentAccessoryId": -1,
+    "currentShoesId": -1,
+    "currentCoatId": -1
+}

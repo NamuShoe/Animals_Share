@@ -1,0 +1,190 @@
+[
+    {
+        "id": "common_MultiShot",
+        "name": "멀티샷",
+        "description": "동시에 발사되는 투사체가 1개 증가"
+    },
+    {
+        "id": "common_DoubleShot",
+        "name": "더블샷",
+        "description": "연속해서 공격을 두번 발사"
+    },
+    {
+        "id": "common_TripleBust",
+        "name": "트리플 버스트",
+        "description": "좌우로 투사체가 하나씩 추가"
+    },
+    {
+        "id": "common_IncreaseAttackPower",
+        "name": "힘 증가",
+        "description": "공격력이 증가"
+    },
+    {
+        "id": "common_IncreaseAttackSpeed",
+        "name": "민첩함 증가",
+        "description": "공격속도가 {0}증가"
+    },
+    {
+        "id": "common_IncreaseHp",
+        "name": "체력 증가",
+        "description": "체력이 증가"
+    },
+    {
+        "id": "common_IncreaseAvoid",
+        "name": "동체시력 증가",
+        "description": "회피률이 {0}증가"
+    },
+    {
+        "id": "common_PlusPiercingCount",
+        "name": "관통력 증가",
+        "description": "관통력이 증가"
+    },
+    {
+        "id": "common_IncreaseCritical",
+        "name": "약점 찾기 강화",
+        "description": "크리티컬 확률, 크리티컬 최소 피해량 증가"
+    },
+    {
+        "id": "common_PlusSenseOfSmellCount",
+        "name": "후각 증가",
+        "description": "해당 스테이지에서 얻는 공드량 증가\n2레벨 시 아이템 획득률 증가"
+    },
+    {
+        "id": "common_숲속마을 비서",
+        "name": "숲속마을 비서",
+        "description": "인게임 경험치 획득 속도 증가\n2레벨 시 최종 레벨 증가"
+    },
+    {
+        "id": "common_BugSpray",
+        "name": "벌레퇴치 스프레이",
+        "description": "일정 거리의 적에게 반복하여 데미지"
+    },
+    {
+        "id": "common_EnergyDrink",
+        "name": "에너지 드링크",
+        "description": "공격력 20%, 공격속도 10% 증가"
+    },
+    {
+        "id": "common_HeavyProjectile",
+        "name": "중량 투사체",
+        "description": "투사체를 무겁게"
+    },
+    {
+        "id": "common_LightProjectile",
+        "name": "경량 투사체",
+        "description": "투사체를 가볍게"
+    },
+    {
+        "id": "common_AdditionalArmor",
+        "name": "추가갑옷",
+        "description": "주기적으로 공격을 막아주는 방패가 생성"
+    },
+    {
+        "id": "common_SecondChance",
+        "name": "두번째 기회",
+        "description": "사망시 0.5체력으로 부활"
+    },
+    {
+        "id": "common_EnchantFire",
+        "name": "속성부여 : 불",
+        "description": "투사체에 불의 힘을 부여"
+    },
+    {
+        "id": "common_EnchantWater",
+        "name": "속성부여 : 물",
+        "description": "투사체에 물의 힘을 부여"
+    },
+    {
+        "id": "common_EnchantLightning",
+        "name": "속성부여 : 번개",
+        "description": "투사체에 번개의 힘을 부여"
+    },
+    {
+        "id": "common_EnchantPoison",
+        "name": "속성부여 : 독",
+        "description": "투사체에 독의 힘을 부여"
+    },
+
+    {
+        "id": "common_IncreaseMoveSpeed",
+        "name": "이동속도 증가",
+        "description": "이동속도 {0}증가"
+    },
+    {
+        "id": "common_IncreaseCriticalPercent",
+        "name": "치명타 확률 증가",
+        "description": "치명타 확률 {0}증가"
+    },
+    {
+        "id": "common_IncreaseProjectileSpeed",
+        "name": "투사체 속도 증가",
+        "description": "투사체 속도 {0}증가"
+    },
+    {
+        "id": "common_IncreaseDrainPercent",
+        "name": "잡식",
+        "description": "적 처치 시, {0}체력 회복"
+    },
+    {
+        "id": "common_IncreaseItemDropRate",
+        "name": "아이템 드롭률 증가",
+        "description": "아이템 드롭률 {0}증가"
+    },
+    {
+        "id": "common_IncreaseEarnGold",
+        "name": "획득 골드 증가",
+        "description": "스테이지 클리어 시 합계 획득 골드 {0}증가",
+    },
+    {
+        "id": "common_ExpGained",
+        "name": "획득 경험치 증가",
+        "description": "인게임 경험치 획득 {0}증가",
+    },
+    {
+        "id": "common_IncreaseMultiShotProbability",
+        "name": "멀티샷 등장 확률 증가",
+        "description": "멀티샷 등장 확률 {0}증가",
+    },
+    
+    
+    {
+        "id": "sh_Lucky",
+        "name": "의도치 않은 행운",
+        "description": "적의 공격을 3% 확률로 회피"
+    },
+    {
+        "id": "sh_LuckyMaster",
+        "name": "행운아",
+        "description": "회피 후 5초간 공격력과 이동속도가 25% 증가"
+    },
+    {
+        "id": "ch_Eradication",
+        "name": "퇴치 본능",
+        "description": "적 3마리를 처치 시, 50% 강한 공격 1회"
+    },
+    {
+        "id": "ch_EradicationMaster",
+        "name": "퇴치의 달인",
+        "description": "강한 공격을 50% 더 강하게"
+    },
+    {
+        "id": "ne_Dart",
+        "name": "다트 마스터",
+        "description": "다트 장착 시, 공격속도 10%, 크리티컬 확률 5% 증가"
+    },
+    {
+        "id": "ne_DartMaster",
+        "name": "다트의 달인",
+        "description": "다트 장착시, 공격속도 10%, 크리티컬 확률 15%, 관통력 1 증가"
+    },
+    {
+        "id": "do_AcornGrenade",
+        "name": "도토리 투척",
+        "description": "기본 공격 5회마다 도토리를 투척"
+    },
+    {
+        "id": "do_IncreaseGrenadePower",
+        "name": "파편 도토리 투척",
+        "description": "도토리의 공격력 50%, 범위 2배 증가"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "equipmentType": 1,
+        "id": 0,
+        "name": "미장착",
+        "level": 0,
+        "grade": 0,
+        "itemDescription": ""
+    },
+    {
+        "equipmentType": 1,
+        "id": 1,
+        "name": "왕관",
+        "level": 1,
+        "grade": 1,
+        "itemDescription": "옛날 옛적 숲속 왕국 시절부터 전해져 오는 유물이라는 전설이 있다.",
+        "stat":         ["Hp"],
+        "statAmount":   [5],
+        "statCft":      [0.5],
+        "epicEffect": "AddProbabilityIncreaseAttackSpeed",
+        "epicParameter": 0.2,
+        "epicEffectDescription": "공격속도 증가 획득 확률 1.2배 증가"
+    },
+    {
+        "equipmentType": 1,
+        "id": 2,
+        "name": "멋쟁이 모자",
+        "level": 1,
+        "grade": 1,
+        "itemDescription": "숲속 마을 친구들이 한껏 멋을 낼 때 착용하는데, 왜인지 마법이 부여 되어있다.",
+        "stat":         ["Hp"],
+        "statAmount":   [5],
+        "statCft":      [0.5],
+        "epicEffect": "AddProbabilityIncreaseAttackPower",
+        "epicParameter": 0.2,
+        "epicEffectDescription": "공격력 증가 획득 확률 1.2배 증가"
+    }
+]

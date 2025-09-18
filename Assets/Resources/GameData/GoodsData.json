@@ -1,0 +1,186 @@
+[
+    {
+        "id" : "C_Goods_SmallGold",
+        "name": "작은 금화 세트",
+        "row": 0,
+        "priceUnit": ["Ads", "Diamond"],
+        "price": [1, 20],
+        "purchaseCount": 10,
+        "components": [
+            {
+                "id": "Gold",
+                "quantity": 4000
+            }
+        ]
+    },
+    {
+        "id" : "C_Goods_MediumGold",
+        "name": "중간 금화 세트",
+        "row": 0,
+        "priceUnit": ["Diamond"],
+        "price": [100],
+        "purchaseCount": 10,
+        "components": [
+            {
+                "id": "Gold",
+                "quantity": 48000
+            }
+        ]
+    },
+    {
+        "id" : "C_Goods_LargeGold",
+        "name": "큰 금화 세트",
+        "row": 0,
+        "priceUnit": ["Diamond"],
+        "price": [300],
+        "purchaseCount": 10,
+        "components": [
+            {
+                "id": "Gold",
+                "quantity": 151260
+            }
+        ]
+    },
+    {
+        "id" : "C_Goods_SmallDiamond",
+        "name": "작은 통조림 세트",
+        "row": 0,
+        "priceUnit": ["Won"],
+        "price": [1200],
+        "purchaseCount": 10,
+        "components": [
+            {
+                "id": "Diamond",
+                "quantity": 100
+            }
+        ]
+    },
+    {
+        "id" : "C_Goods_MediumDiamond",
+        "name": "중간 통조림 세트",
+        "row": 0,
+        "priceUnit": ["Won"],
+        "price": [4900],
+        "purchaseCount": 10,
+        "components": [
+            {
+                "id": "Diamond",
+                "quantity": 430
+            }
+        ]
+    },
+    {
+        "id" : "C_Goods_LargeDiamond",
+        "name": "큰 통조림 세트",
+        "row": 0,
+        "priceUnit": ["Won"],
+        "price": [9900],
+        "purchaseCount": 10,
+        "components": [
+            {
+                "id": "Diamond",
+                "quantity": 910
+            }
+        ]
+    },
+    {
+        "id" : "C_Goods_Tree",
+        "name": "나무 세트",
+        "row": 1,
+        "priceUnit": ["Ads"],
+        "price": [1],
+        "purchaseCount": 10,
+        "components": [
+            {
+                "id": "Tree",
+                "quantity": 5
+            }
+        ]
+    },
+    {
+        "id" : "C_Goods_Iron",
+        "name": "강철 세트",
+        "row": 1,
+        "priceUnit": ["Ads"],
+        "price": [1],
+        "purchaseCount": 10,
+        "components": [
+            {
+                "id": "Iron",
+                "quantity": 5
+            }
+        ]
+    },
+    {
+        "id" : "C_Goods_Cotton",
+        "name": "목화 세트",
+        "row": 1,
+        "priceUnit": ["Ads"],
+        "price": [1],
+        "purchaseCount": 10,
+        "components": [
+            {
+                "id": "Cotton",
+                "quantity": 5
+            }
+        ]
+    },
+    {
+        "id" : "C_Goods_MagicPowder",
+        "name": "마법가루 세트",
+        "row": 1,
+        "priceUnit": ["Ads"],
+        "price": [1],
+        "purchaseCount": 10,
+        "components": [
+            {
+                "id": "MagicPowder",
+                "quantity": 5
+            }
+        ]
+    },
+    {
+        "id" : "C_Goods_Emerald",
+        "name": "보석 세트",
+        "row": 1,
+        "priceUnit": ["Ads"],
+        "price": [1],
+        "purchaseCount": 10,
+        "components": [
+            {
+                "id": "Emerald",
+                "quantity": 5
+            }
+        ]
+    },
+    {
+        "id" : "C_Goods_EquipLevelUpMaterial",
+        "name": "강화재료 세트",
+        "row": 1,
+        "priceUnit": ["Ads"],
+        "price": [1],
+        "purchaseCount": 10,
+        "components": [
+            {
+                "id": "Tree",
+                "quantity": 1
+            },
+            {
+                "id": "Iron",
+                "quantity": 1
+            },
+            {
+                "id": "Cotton",
+                "quantity": 1
+            },
+            {
+                "id": "MagicPowder",
+                "quantity": 1
+            },
+            {
+                "id": "Emerald",
+                "quantity": 1
+            }
+        ]
+    }
+]

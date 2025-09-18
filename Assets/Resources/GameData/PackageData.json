@@ -1,0 +1,215 @@
+[
+    {
+        "id" : "C_Package_Starter_0",
+        "name": "초보 특공대 스타터 패키지",
+        "row": 0,
+        "priceUnit": ["Won"],
+        "price": [4900],
+        "purchaseCount": 1,
+        "components": [
+            {
+                "id": "Diamond",
+                "quantity": 500
+            },
+            {
+                "id": "NormalBox",
+                "quantity": 3
+            },
+            {
+                "id": "MagicBox",
+                "quantity": 1
+            },
+            {
+                "id": "EquipLevelUpMaterial",
+                "quantity": 50
+            },
+            {
+                "id": "UncommonEquipmentTicket",
+                "quantity": 5
+            }
+        ]
+    },
+    {
+        "id" : "C_Package_StepUp_0",
+        "name": "스텝업 패키지",
+        "row": 0,
+        "priceUnit": ["Won"],
+        "price": [9900],
+        "purchaseCount": 1,
+        "components": [
+            {
+                "id": "Diamond",
+                "quantity": 1200
+            },
+            {
+                "id": "NormalBox",
+                "quantity": 5
+            },
+            {
+                "id": "MagicBox",
+                "quantity": 3
+            },
+            {
+                "id": "EquipLevelUpMaterial",
+                "quantity": 100
+            },
+            {
+                "id": "ResurrectionTicket",
+                "quantity": 5
+            }
+        ]
+    },
+    {
+        "id" : "C_Package_Challenge_0",
+        "name": "챕터 도전 특별 패키지",
+        "row": 0,
+        "priceUnit": ["Won"],
+        "price": [13900],
+        "purchaseCount": 1,
+        "components": [
+            {
+                "id": "Diamond",
+                "quantity": 1500
+            },
+            {
+                "id": "NormalBox",
+                "quantity": 10
+            },
+            {
+                "id": "MagicBox",
+                "quantity": 5
+            },
+            {
+                "id": "EquipLevelUpMaterial",
+                "quantity": 150
+            },
+            {
+                "id": "ResurrectionTicket",
+                "quantity": 10
+            }
+        ]
+    },
+    {
+        "id" : "C_Package_StepUp_1",
+        "name": "프리미엄 스텝업 패키지",
+        "row": 0,
+        "priceUnit": ["Won"],
+        "price": [19900],
+        "purchaseCount": 1,
+        "components": [
+            {
+                "id": "Diamond",
+                "quantity": 2000
+            },
+            {
+                "id": "NormalBox",
+                "quantity": 10
+            },
+            {
+                "id": "MagicBox",
+                "quantity": 10
+            },
+            {
+                "id": "EquipLevelUpMaterial",
+                "quantity": 200
+            },
+            {
+                "id": "Gold",
+                "quantity": 200000
+            }
+        ]
+    },
+    {
+        "id" : "NC_NoAds_NoAds_0",
+        "name": "영구 광고 제거권",
+        "row": 1,
+        "priceUnit": ["Won"],
+        "price": [5900],
+        "description": "광고를 영구 제거\n450 통조림 지급\n고급 무기 쿠폰 2개",
+        "purchaseCount": 1,
+        "components": [
+            {
+                "id": "Diamond",
+                "quantity": 450
+            },
+            {
+                "id": "MagicBox",
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "id" : "S_Subscription_Membership_0",
+        "name": "고급 회원권",
+        "row": 1,
+        "priceUnit": ["Won"],
+        "price": [4900],
+        "description": "통조림을 20일간 하루 30개씩 지급\n세션 종료 후 경험치 20% 추가 정산",
+        "purchaseCount": 1,
+        "components": [
+            {
+                "id": "CharacterNero",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id" : "S_Subscription_Membership_1",
+        "name": "플래티넘 회원권",
+        "row": 1,
+        "priceUnit": ["Won"],
+        "price": [9900],
+        "description": "통조림을 20일간 하루 40개씩 지급\n스킬 재 선택권 일일 무제한 지급\n세션 종료 후 경험치 25% 추가 정산",
+        "purchaseCount": 1,
+        "components": [
+            {
+                "id": "CharacterNero",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id" : "C_Character_Nero_0",
+        "name": "네로 단품",
+        "row": 2,
+        "priceUnit": ["Won"],
+        "price": [9900],
+        "purchaseCount": 1,
+        "components": [
+            {
+                "id": "CharacterNero",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id" : "C_Character_Nero_1",
+        "name": "네로 상품 패키지",
+        "row": 2,
+        "priceUnit": ["Won"],
+        "price": [14900],
+        "purchaseCount": 1,
+        "components": [
+            {
+                "id": "CharacterNero",
+                "quantity": 1
+            },
+            {
+                "id": "Diamond",
+                "quantity": 1250
+            },
+            {
+                "id": "MagicBox",
+                "quantity": 5
+            },
+            {
+                "id": "EquipLevelUpMaterial",
+                "quantity": 125
+            },
+            {
+                "id": "ResurrectionTicket",
+                "quantity": 5
+            }
+        ]
+    }
+]

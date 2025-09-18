@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea2286af50e6674886094ee42bab674, type: 3}
+  m_Name: DropItemSO
+  m_EditorClassIdentifier: 
+  DropEquipmentList:
+  - id: 2
+    name: Arrow
+    sprite: {fileID: 21300000, guid: 9e2028e31e450e949a112086bf6b228c, type: 3}
+    probability: 0.04
+    specific:
+      id: 1
+      type: 0
+      grade: 0
+      level: 1
+  - id: 3
+    name: Dart
+    sprite: {fileID: 21300000, guid: 1a33dc17f67c61d40bfc25b478dc4793, type: 3}
+    probability: 0.04
+    specific:
+      id: 2
+      type: 0
+      grade: 0
+      level: 1
+  - id: 4
+    name: Boomerang
+    sprite: {fileID: 21300000, guid: 2864d0d2e21e34e468d0f0271e5d24f2, type: 3}
+    probability: 0.03
+    specific:
+      id: 3
+      type: 0
+      grade: 0
+      level: 1
+  - id: 5
+    name: Crown
+    sprite: {fileID: 21300000, guid: f4121fb235cab894492a06e9c88cb087, type: 3}
+    probability: 0.045
+    specific:
+      id: 1
+      type: 1
+      grade: 0
+      level: 1
+  - id: 6
+    name: Hat
+    sprite: {fileID: 21300000, guid: 8c59a29782763684bbae61a1f5d7416f, type: 3}
+    probability: 0.045
+    specific:
+      id: 2
+      type: 1
+      grade: 0
+      level: 1
+  - id: 7
+    name: Necklace
+    sprite: {fileID: 21300000, guid: d38830cd424400c4c9834c1222c64696, type: 3}
+    probability: 0.045
+    specific:
+      id: 1
+      type: 2
+      grade: 0
+      level: 1
+  - id: 8
+    name: PearlNecklace
+    sprite: {fileID: 21300000, guid: 61e8dd1df4e819a47a2d1d4077d37607, type: 3}
+    probability: 0.045
+    specific:
+      id: 2
+      type: 2
+      grade: 0
+      level: 1
+  - id: 9
+    name: Sneakers
+    sprite: {fileID: 21300000, guid: a2be3dc4879e23541a42e763849dd305, type: 3}
+    probability: 0.045
+    specific:
+      id: 1
+      type: 3
+      grade: 0
+      level: 1
+  - id: 10
+    name: Slipper
+    sprite: {fileID: 21300000, guid: 67deaa789c3b36146b2c3006f2e0a17d, type: 3}
+    probability: 0.045
+    specific:
+      id: 2
+      type: 3
+      grade: 0
+      level: 1
+  - id: 11
+    name: Shirt
+    sprite: {fileID: 21300000, guid: 70c367d9bf4820c4ca2d4282313c496e, type: 3}
+    probability: 0.045
+    specific:
+      id: 1
+      type: 4
+      grade: 0
+      level: 1
+  - id: 12
+    name: Cape
+    sprite: {fileID: 21300000, guid: ec35f6936e84de346962aed8e3ca4d6b, type: 3}
+    probability: 0.045
+    specific:
+      id: 2
+      type: 4
+      grade: 0
+      level: 1
+  DropMaterialList:
+  - id: 13
+    name: Tree
+    sprite: {fileID: 21300000, guid: bbd0979c8c172664ea7b4d51fff1b6c4, type: 3}
+    probability: 0.5
+    type: 0
+  - id: 14
+    name: Iron
+    sprite: {fileID: 21300000, guid: f8efc2f6624070d40b0d7f03db8525f2, type: 3}
+    probability: 0.3
+    type: 1
+  - id: 15
+    name: Cotton
+    sprite: {fileID: 21300000, guid: 53a900f2c54d22348b48853fb9a509b0, type: 3}
+    probability: 0.5
+    type: 2
+  - id: 16
+    name: MagicPowder
+    sprite: {fileID: 21300000, guid: fbbe8fe206375c343bb2d8ff452b60de, type: 3}
+    probability: 0.3
+    type: 3
+  - id: 17
+    name: Emerald
+    sprite: {fileID: 21300000, guid: 2883f187086a4304280b711269874cf9, type: 3}
+    probability: 0.3
+    type: 4

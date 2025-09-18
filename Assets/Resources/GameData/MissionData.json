@@ -1,0 +1,121 @@
+{
+    "0": {
+        "missionNum": 0,
+        "requirement": "나는 문어",
+        "requiredNum": 1,
+        "rewardType": ["EquipLevelUpMaterial"],
+        "rewardAmount": [5]
+    },
+    "1": {
+        "missionNum": 1,
+        "requirement": "광고 보기",
+        "requiredNum": 1,
+        "rewardType": ["EquipLevelUpMaterial"],
+        "rewardAmount": [5]
+    },
+    "2": {
+        "missionNum": 2,
+        "requirement": "적 50회 처치",
+        "requiredNum": 50,
+        "rewardType": ["EquipLevelUpMaterial"],
+        "rewardAmount": [5]
+    },
+    "3": {
+        "missionNum": 3,
+        "requirement": "스테이지 모드 플레이 하기",
+        "requiredNum": 1,
+        "rewardType": ["EquipLevelUpMaterial"],
+        "rewardAmount": [5]
+    },
+    "4": {
+        "missionNum": 4,
+        "requirement": "랭킹 모드 플레이 하기",
+        "requiredNum": 1,
+        "rewardType": ["EquipLevelUpMaterial"],
+        "rewardAmount": [5]
+    },
+    "5": {
+        "missionNum": 5,
+        "requirement": "상점 뽑기 열기",
+        "requiredNum": 1,
+        "rewardType": ["EquipLevelUpMaterial"],
+        "rewardAmount": [5]
+    },
+    "6": {
+        "missionNum": 6,
+        "requirement": "캐릭터 레벨업 하기",
+        "requiredNum": 1,
+        "rewardType": ["Life"],
+        "rewardAmount": [5]
+    },
+    "7": {
+        "missionNum": 7,
+        "requirement": "아이템 재료 10개 획득하기",
+        "requiredNum": 10,
+        "rewardType": ["Life"],
+        "rewardAmount": [5]
+    },
+    "8": {
+        "missionNum": 8,
+        "requirement": "출석 보상 획득하기",
+        "requiredNum": 1,
+        "rewardType": ["Life"],
+        "rewardAmount": [5]
+    },
+    "9": {
+        "missionNum": 9,
+        "requirement": "에너지 10 소모하기",
+        "requiredNum": 10,
+        "rewardType": ["Life"],
+        "rewardAmount": [5]
+    },
+    "10": {
+        "missionNum": 10,
+        "requirement": "2번의 게임 플레이하기",
+        "requiredNum": 2,
+        "rewardType": ["Life"],
+        "rewardAmount": [5]
+    },
+    "11": {
+        "missionNum": 11,
+        "requirement": "무기 레벨업하기",
+        "requiredNum": 1,
+        "rewardType": ["Diamond"],
+        "rewardAmount": [5]
+    },
+    "12": {
+        "missionNum": 12,
+        "requirement": "방어구 레벨업하기",
+        "requiredNum": 1,
+        "rewardType": ["Diamond"],
+        "rewardAmount": [5]
+    },
+    "13": {
+        "missionNum": 13,
+        "requirement": "무기 합성하기",
+        "requiredNum": 1,
+        "rewardType": ["Diamond"],
+        "rewardAmount": [5]
+    },
+    "14": {
+        "missionNum": 14,
+        "requirement": "방어구 합성하기",
+        "requiredNum": 1,
+        "rewardType": ["Diamond"],
+        "rewardAmount": [5]
+    },
+    "15": {
+        "missionNum": 15,
+        "requirement": "보스 처치하기",
+        "requiredNum": 1,
+        "rewardType": ["Diamond"],
+        "rewardAmount": [5]
+    },
+    "16": {
+        "missionNum": 16,
+        "requirement": "일일 퀘스트 3회 완료하기",
+        "requiredNum": 3,
+        "rewardType": ["NormalBox"],
+        "rewardAmount": [1]
+    }
+}

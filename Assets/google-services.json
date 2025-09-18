@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "7508630677",
+    "firebase_url": "https://animalsshooting-7850d-default-rtdb.firebaseio.com",
+    "project_id": "animalsshooting-7850d",
+    "storage_bucket": "animalsshooting-7850d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7508630677:android:ee540218408c0aa5a90f9c",
+        "android_client_info": {
+          "package_name": "com.ForfriStudio.ffs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7508630677-rtfprpc921ntps0puqh1a5a5huuk4iht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy7aQYnlHCYK6JYGRSe_ye-1FBtNevBks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7508630677-rtfprpc921ntps0puqh1a5a5huuk4iht.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "7508630677-83752aagtob3jntd5md7g7n85l7ps9kc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.danbigames.animals"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

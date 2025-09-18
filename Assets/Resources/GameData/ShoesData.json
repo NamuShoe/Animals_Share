@@ -1,0 +1,38 @@
+[
+    {
+        "equipmentType": 3,
+        "id": 0,
+        "name": "미장착",
+        "level": 0,
+        "grade": 0,
+        "itemDescription": ""
+    },
+    {
+        "equipmentType": 3,
+        "id": 1,
+        "name": "운동화",
+        "level": 1,
+        "grade": 1,
+        "itemDescription": "숲속 친구들의 착용감이 편한 운동용 신발이다.",
+        "stat":         ["MoveSpeed", "AttackSpeed"],
+        "statAmount":   [0.5, 0.1],
+        "statCft":      [0.02, 0.05],
+        "epicEffect": "IncreaseBossAttackPower",
+        "epicParameter": 10,
+        "epicEffectDescription": "보스 몬스터에게 입히는 피해량 10% 증가"
+    },
+    {
+        "equipmentType": 3,
+        "id": 2,
+        "name": "슬리퍼",
+        "level": 1,
+        "grade": 1,
+        "itemDescription": "숲속 친구들의 가벼운 일상생활용 신발이다.",
+        "stat":         ["MoveSpeed", "AttackSpeed"],
+        "statAmount":   [0.5, 0.1],
+        "statCft":      [0.02, 0.05],
+        "epicEffect": "IncreaseAvoidHealPercent",
+        "epicParameter": 5,
+        "epicEffectDescription": "회피 시 최대 체력의 5%만큼 체력 회복"
+    }
+]

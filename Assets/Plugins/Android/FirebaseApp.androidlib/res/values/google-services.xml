@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://animalsshooting-7850d-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">7508630677</string>
+  <string name="google_storage_bucket" translatable="false">animalsshooting-7850d.firebasestorage.app</string>
+  <string name="project_id" translatable="false">animalsshooting-7850d</string>
+  <string name="google_api_key" translatable="false">AIzaSyDy7aQYnlHCYK6JYGRSe_ye-1FBtNevBks</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDy7aQYnlHCYK6JYGRSe_ye-1FBtNevBks</string>
+  <string name="google_app_id" translatable="false">1:7508630677:android:ee540218408c0aa5a90f9c</string>
+  <string name="default_web_client_id" translatable="false">7508630677-rtfprpc921ntps0puqh1a5a5huuk4iht.apps.googleusercontent.com</string>
+</resources>

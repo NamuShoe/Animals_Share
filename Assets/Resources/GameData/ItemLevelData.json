@@ -1,0 +1,282 @@
+{
+    "1": {
+        "requiredGold": 200,
+        "requiredMaterials": [
+            1,
+            1
+        ]
+    },
+    "2": {
+        "requiredGold": 400,
+        "requiredMaterials": [
+            2,
+            2
+        ]
+    },
+    "3": {
+        "requiredGold": 600,
+        "requiredMaterials": [
+            3,
+            3
+        ]
+    },
+    "4": {
+        "requiredGold": 800,
+        "requiredMaterials": [
+            4,
+            4
+        ]
+    },
+    "5": {
+        "requiredGold": 1000,
+        "requiredMaterials": [
+            5,
+            5
+        ]
+    },
+    "6": {
+        "requiredGold": 1200,
+        "requiredMaterials": [
+            6,
+            6
+        ]
+    },
+    "7": {
+        "requiredGold": 1400,
+        "requiredMaterials": [
+            7,
+            7
+        ]
+    },
+    "8": {
+        "requiredGold": 1600,
+        "requiredMaterials": [
+            8,
+            8
+        ]
+    },
+    "9": {
+        "requiredGold": 1800,
+        "requiredMaterials": [
+            9,
+            9
+        ]
+    },
+    "10": {
+        "requiredGold": 2000,
+        "requiredMaterials": [
+            10,
+            10
+        ]
+    },
+    "11": {
+        "requiredGold": 2200,
+        "requiredMaterials": [
+            11,
+            11
+        ]
+    },
+    "12": {
+        "requiredGold": 2400,
+        "requiredMaterials": [
+            12,
+            12
+        ]
+    },
+    "13": {
+        "requiredGold": 2600,
+        "requiredMaterials": [
+            13,
+            13
+        ]
+    },
+    "14": {
+        "requiredGold": 2800,
+        "requiredMaterials": [
+            14,
+            14
+        ]
+    },
+    "15": {
+        "requiredGold": 3000,
+        "requiredMaterials": [
+            15,
+            15
+        ]
+    },
+    "16": {
+        "requiredGold": 3200,
+        "requiredMaterials": [
+            16,
+            16
+        ]
+    },
+    "17": {
+        "requiredGold": 3400,
+        "requiredMaterials": [
+            17,
+            17
+        ]
+    },
+    "18": {
+        "requiredGold": 3600,
+        "requiredMaterials": [
+            18,
+            18
+        ]
+    },
+    "19": {
+        "requiredGold": 3800,
+        "requiredMaterials": [
+            19,
+            19
+        ]
+    },
+    "20": {
+        "requiredGold": 4000,
+        "requiredMaterials": [
+            20,
+            20
+        ]
+    },
+    "21": {
+        "requiredGold": 4400,
+        "requiredMaterials": [
+            21,
+            21
+        ]
+    },
+    "22": {
+        "requiredGold": 4800,
+        "requiredMaterials": [
+            22,
+            22
+        ]
+    },
+    "23": {
+        "requiredGold": 5200,
+        "requiredMaterials": [
+            23,
+            23
+        ]
+    },
+    "24": {
+        "requiredGold": 5600,
+        "requiredMaterials": [
+            24,
+            24
+        ]
+    },
+    "25": {
+        "requiredGold": 6000,
+        "requiredMaterials": [
+            25,
+            25
+        ]
+    },
+    "26": {
+        "requiredGold": 6400,
+        "requiredMaterials": [
+            26,
+            26
+        ]
+    },
+    "27": {
+        "requiredGold": 6800,
+        "requiredMaterials": [
+            27,
+            27
+        ]
+    },
+    "28": {
+        "requiredGold": 7200,
+        "requiredMaterials": [
+            28,
+            28
+        ]
+    },
+    "29": {
+        "requiredGold": 7600,
+        "requiredMaterials": [
+            29,
+            29
+        ]
+    },
+    "30": {
+        "requiredGold": 8000,
+        "requiredMaterials": [
+            30,
+            30
+        ]
+    },
+    "31": {
+        "requiredGold": 8800,
+        "requiredMaterials": [
+            30,
+            30
+        ]
+    },
+    "32": {
+        "requiredGold": 9600,
+        "requiredMaterials": [
+            30,
+            30
+        ]
+    },
+    "33": {
+        "requiredGold": 10400,
+        "requiredMaterials": [
+            30,
+            30
+        ]
+    },
+    "34": {
+        "requiredGold": 11200,
+        "requiredMaterials": [
+            30,
+            30
+        ]
+    },
+    "35": {
+        "requiredGold": 12000,
+        "requiredMaterials": [
+            30,
+            30
+        ]
+    },
+    "36": {
+        "requiredGold": 12800,
+        "requiredMaterials": [
+            30,
+            30
+        ]
+    },
+    "37": {
+        "requiredGold": 13600,
+        "requiredMaterials": [
+            30,
+            30
+        ]
+    },
+    "38": {
+        "requiredGold": 14400,
+        "requiredMaterials": [
+            30,
+            30
+        ]
+    },
+    "39": {
+        "requiredGold": 15200,
+        "requiredMaterials": [
+            30,
+            30
+        ]
+    },
+    "40": {
+        "requiredGold": 16000,
+        "requiredMaterials": [
+            30,
+            30
+        ]
+    }
+}

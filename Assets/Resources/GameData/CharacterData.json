@@ -1,0 +1,130 @@
+[
+        {
+            "animalTypes": 0,
+            "id": 1,
+            "name": "쇼츠",
+            "hp": 10,
+            "attackPower": 15,
+            "attackSpeed": 1,
+            "moveSpeed": 1,
+            "description": "짧고 앙증맞은 다리가 포인트. BAD를 물리치면 다리가 길어질 수도 있다는 판다할배의 거짓말에 속아 근무 중",
+            "characterSkillNameList": [
+                "sh_Lucky",
+                "common_IncreaseAvoid",
+                "common_IncreaseAttackSpeed",
+                "common_IncreaseItemDropRate",
+                "common_IncreaseMoveSpeed",
+                "common_IncreaseAvoid",
+                "common_IncreaseEarnGold",
+                "common_IncreaseCriticalPercent",
+                "sh_LuckyMaster"
+            ],
+            "characterSkillVariableList": [
+                "",
+                "4%",
+                "3%",
+                "3%",
+                "3%",
+                "2%",
+                "5%",
+                "2%",
+                ""
+            ]
+        },
+        {
+            "animalTypes": 1,
+            "id": 2,
+            "name": "치즈",
+            "hp": 15,
+            "attackPower": 11,
+            "attackSpeed": 1.5,
+            "moveSpeed": 1,
+            "description": "길거리 출신. 벌레를 심심풀이로 잡는 모습을 보고 판다할배의 스카우트로 AST에 입단함",
+            "characterSkillNameList": [
+                "ch_Eradication", 
+                "common_IncreaseProjectileSpeed",
+                "common_IncreaseAttackSpeed",
+                "common_IncreaseDrainPercent",
+                "common_IncreaseMoveSpeed",
+                "common_IncreaseAvoid",
+                "common_IncreaseCriticalPercent", 
+                "common_IncreaseCriticalPercent",
+                "ch_EradicationMaster"
+            ],
+            "characterSkillVariableList": [
+                "",
+                "3%",
+                "3%",
+                "1.5%",
+                "3%",
+                "2%",
+                "4%",
+                "2%",
+                ""
+            ]
+        },
+        {
+            "animalTypes": 1,
+            "id": 3,
+            "name": "네로",
+            "hp": 10,
+            "attackPower": 20,
+            "attackSpeed": 1.5,
+            "moveSpeed": 1.4,
+            "description": "신사적인 성격과 낭만이 존재하는 고양이. BAD를 퇴치하고 세상의 평화를 위해 합류함. 낭만의 살고 낭만에 죽는 길거리의 신사",
+            "characterSkillNameList": [
+                "ne_Dart", 
+                "common_IncreaseProjectileSpeed",
+                "common_IncreaseAttackSpeed",
+                "common_IncreaseDrainPercent",
+                "common_IncreaseMoveSpeed",
+                "common_IncreaseAvoid",
+                "common_IncreaseMultiShotProbability",
+                "common_IncreaseCriticalPercent",
+                "ne_DartMaster"
+            ],
+            "characterSkillVariableList": [
+                "",
+                "4%",
+                "3%",
+                "1.5%",
+                "3%",
+                "2%",
+                "1.5%",
+                "2%",
+                ""
+            ]
+        },
+        {
+            "animalTypes": 2,
+            "id": 4,
+            "name": "도톨이",
+            "hp": 3,
+            "attackPower": 1,
+            "attackSpeed": 1,
+            "moveSpeed": 1,
+            "description": "명석한 두뇌와 식탐이 특징인 다람쥐 마을의 대장. BAD의 등장으로 다람쥐 마을에 식량 위기가 오자 자신이 직접 BAD와의 전쟁에 합류함",
+            "characterSkillNameList": [
+                "do_AcornGrenade", 
+                "common_ExpGained",
+                "common_IncreaseAttackSpeed",
+                "common_IncreaseCriticalPercent",
+                "common_IncreaseMoveSpeed",
+                "common_IncreaseAvoid",
+                "common_IncreaseDrainPercent", 
+                "common_IncreaseCriticalPercent", 
+                "do_IncreaseGrenadePower"
+            ],
+            "characterSkillVariableList": [
+                "",
+                "5%",
+                "3%",
+                "4%",
+                "3%",
+                "2%",
+                "3%",
+                "2%",
+                ""
+            ]
+        }
+]

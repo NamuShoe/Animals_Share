@@ -1,0 +1,38 @@
+[
+    {
+        "equipmentType": 2,
+        "id": 0,
+        "name": "미장착",
+        "level": 0,
+        "grade": 0,
+        "itemDescription": ""
+    },
+    {
+        "equipmentType": 2,
+        "id": 1,
+        "name": "목걸이",
+        "level": 1,
+        "grade": 1,
+        "itemDescription": "평범한 숲속 마을 친구들의 자신감을 불어넣어 주는 패션 목걸이이다.",
+        "stat":         ["AttackPower", "CriticalMultipleMin"],
+        "statAmount":   [3, 10],
+        "statCft":      [0, 0.1],
+        "epicEffect": "IncreaseLightningPercent",
+        "epicParameter": 7.5,
+        "epicEffectDescription": "번개 피해량이 12.5%에서 20%로 증가한다"
+    },
+    {
+        "equipmentType": 2,
+        "id": 2,
+        "name": "진주 목걸이",
+        "level": 1,
+        "grade": 1,
+        "itemDescription": "한땀한땀 채집한 마법이 부여된 진주로 제작한 목걸이다.",
+        "stat":         ["AttackPower", "CriticalPercent"],
+        "statAmount":   [3, 3],
+        "statCft":      [0, 0.3],
+        "epicEffect": "IncreaseWaterPercent",
+        "epicParameter": 25,
+        "epicEffectDescription": "물 효과를 받고 있는 적은 피해를 25% 더 입는다"
+    }
+]
