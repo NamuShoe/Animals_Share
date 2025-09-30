@@ -33,6 +33,10 @@ public class LoginManager : MonoBehaviour
     [SerializeField] private GameObject tutorialGameObject;
     [SerializeField] private GameObject createUIDBtn;
     [SerializeField] private GameObject LoginUIDBtn;
+    [SerializeField] private GameObject CreateAccountFrame;
+    [SerializeField] private Button createGuestBtn;
+    [SerializeField] private Button createGoogleBtn;
+    [SerializeField] private Button createAppleBtn;
     [SerializeField] private GameObject gameTitle;
     
     [Header("Main GameObject")]
@@ -81,11 +85,11 @@ public class LoginManager : MonoBehaviour
         StartCoroutine(ServerTimeCheck());
         if (loginComplete == false)
         {
-            loadingBar.gameObject.SetActive(false);
             mainCanvas.SetActive(false);
             mainManager.SetActive(true);
             loginCanvas.SetActive(true);
             logoPanel.SetActive(true);
+            loadingBar.gameObject.SetActive(false);
             transform.gameObject.SetActive(true);
             StartCoroutine(Intro());
         }
@@ -160,6 +164,7 @@ public class LoginManager : MonoBehaviour
     
     public void Login()
     {
+        // puppy: UID로그인만을 염두해두고 만들었기에 PlayerPrefs에 guestCode가 있으면 로그인 되도록 되어있습니다.
         if(PlayerPrefs.HasKey("guestCode"))
         {
             FirebaseInit(isAdmin);
@@ -167,10 +172,13 @@ public class LoginManager : MonoBehaviour
         else
         {
             createUIDBtn.gameObject.SetActive(true);
-            createUIDBtn.GetComponent<Button>().onClick.AddListener(ShowUserNamePopup);
             LoginUIDBtn.gameObject.SetActive(true);
             LoginUIDBtn.GetComponent<Button>().onClick.AddListener(ShowLoginPopup);
-            // 구글 로그인 버튼으로 이벤트 추가
+            
+            createGuestBtn.onClick.AddListener(ShowUserNamePopup);
+            // puppy: 구글, 애플 로그인 버튼으로 이벤트 추가
+            // createGoogleBtn.onClick.AddListener();
+            // createAppleBtn.onClick.AddListener();
         }
     }
     bool CheckInternetConnection() // 인터넷 연결 확인
@@ -221,7 +229,7 @@ public class LoginManager : MonoBehaviour
         
         if(CheckInternetConnection() == true) // 인터넷 연결이 되어 있다면 true
         {
-                loadingBar.SetActive(true);
+                //loadingBar.SetActive(true);
                 loadingBar.GetComponent<Slider>().value = 0;
                 
                 if(!loginComplete) {
@@ -246,6 +254,7 @@ public class LoginManager : MonoBehaviour
 
     }
 
+    // puppy: Guest 로그인, 해당 함수는 Guest 로그인만을 염두해 두고 작성했습니다.
     IEnumerator FirebaseLoginCoroutine()
     {
         yield return null;
@@ -377,7 +386,9 @@ public class LoginManager : MonoBehaviour
         
         createUIDBtn.gameObject.SetActive(false);
         LoginUIDBtn.gameObject.SetActive(false);
+        CreateAccountFrame.gameObject.SetActive(false);
         
+        loadingBar.SetActive(true);
         Slider loadingSlider = loadingBar.GetComponent<Slider>();
         loadingText.gameObject.SetActive(true);
         
@@ -1181,6 +1192,8 @@ public class LoginManager : MonoBehaviour
     {
         StartCoroutine(IsValidInput(userNameInput.text));
     }
+    
+    // puppy: 해당 함수는 닉네임을 검수하는 함수입니다. 중복의 체크, 글자 수 제한, 비속어 포함에 대해 작성해주시면 됩니다.
     IEnumerator IsValidInput(string input) // 2
     {
         totalLength = 0;
@@ -1217,6 +1230,7 @@ public class LoginManager : MonoBehaviour
     /// </summary>
     /// <param name="input"></param>
     /// <returns>겹칠 시 true 반환</returns>
+    // puppy: 해당 함수는 닉네임을 검수하는 함수입니다. 가끔 중복여부가 정확하지 않을 때가 있습니다.(아마 async가 아니여서 그런 듯 합니다.)
     private bool CheckUserNameDB(string input) // 3
     {
         DatabaseReference dataReference = FirebaseDatabase.DefaultInstance.GetReference("UserNameList/Names");
@@ -1361,7 +1375,8 @@ public class LoginManager : MonoBehaviour
     {
         loginPopup.SetActive(false);
     }
-
+    
+    // puppy: UIDInput의 UID가 맞는지 확인하는 함수
     public async void LoginUID()
     {
         bool isUidValid = await CheckUidDB(UIDInput.text);
@@ -1387,6 +1402,8 @@ public class LoginManager : MonoBehaviour
         //LoginInit();
         _SceneManager.instance.MainMenu();
     }
+    
+    // puppy: 계정 삭제 함수가 필요합니다.
 
     #endregion
 }

@@ -12,6 +12,7 @@ public class IAPManager : MonoBehaviour
     
     private StoreController storeController;
 
+    // puppy: 해당 변수는 구매 성공 여부를 확인하는 변수입니다.
     public Status status = Status.Waiting;
 
     private void Awake()
@@ -23,7 +24,6 @@ public class IAPManager : MonoBehaviour
     {
         storeController = UnityIAPServices.StoreController();
 
-        // Listen to store events
         storeController.OnPurchasePending += OnPurchasePending;
         storeController.OnPurchaseConfirmed += OnPurchaseConfirmed;
         storeController.OnPurchaseFailed += OnPurchaseFailed;
@@ -33,7 +33,6 @@ public class IAPManager : MonoBehaviour
         status = Status.Waiting;
         await storeController.Connect();
 
-        // Fetch your products
         FetchProducts();
     }
 
@@ -94,39 +93,7 @@ public class IAPManager : MonoBehaviour
         var product = order.CartOrdered.Items().First()?.Product;
         Debug.Log($"Pending purchase: {product.definition.id}");
         
-        // Grant reward now if you want immediate effect
-        // But for consumables, best practice is to wait until confirmed
-
-        bool validPurchase = true;
-        
-        if (Application.platform == RuntimePlatform.Android) {
-            var validator = new CrossPlatformValidator(GooglePlayTangle.Data(), Application.identifier);
-
-            try {
-                //영수증 검사
-                /*서명 검증을 통해 영수증 유효성을 검사합니다.
-                영수증의 애플리케이션 번들 식별자를 애플리케이션의 식별자와 비교합니다.
-                이 둘이 일치하지 않으면 InvalidBundleId 예외 오류가 발생합니다.*/
-                var result = validator.Validate(order.Info.Receipt);
-
-                //영수증 내용 출력
-                foreach (IPurchaseReceipt purchaseReceipt in result) {
-                    Debug.Log(purchaseReceipt.productID);
-                    Debug.Log(purchaseReceipt.purchaseDate);
-                    Debug.Log(purchaseReceipt.transactionID);
-                }
-            }
-            catch (IAPSecurityException) {
-                Debug.Log("Invalid receipt");
-                validPurchase = false;
-            }
-        }
-        
-        // Confirm purchase so the transaction is completed
-        if(validPurchase)
-            storeController.ConfirmPurchase(order);
-        else
-            Debug.Log("Failed Purchase");
+        // puppy: IAP 5.0의 예시 스크립트에서는 이곳에서 영수증 검증을 합니다. 무조건 이곳에 하실 필요는 없습니다.
     }
 
     private void OnPurchaseConfirmed(Order order)
@@ -152,6 +119,7 @@ public class IAPManager : MonoBehaviour
         Debug.Log($"Deferred purchase: {product.definition.id}");
     }
     
+    // puppy: 구매하는 함수입니다.
     public void InitiatePurchase(string productId)
     {
         var product = storeController?.GetProducts().FirstOrDefault(product => product.definition.id == productId);
